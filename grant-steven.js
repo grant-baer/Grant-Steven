@@ -33,4 +33,17 @@ document.addEventListener('click', function() {
       }
     });
   }
+
+// Place random images throughout the page
+const images = ['cryptic1.JPG', 'cryptic2.JPG', 'cryptic3.JPG', 'cryptic4.JPG', 'cryptic5.JPG', 'cryptic6.JPG'];
+
+function getRandomImage() {
+  const randomIndex = Math.floor(Math.random() * images.length);
+  const randomImage = images[randomIndex];
+  return randomImage;
+}
+
+const randomImage = getRandomImage();
+const imageContainer = document.getElementById('random-image');
+imageContainer.innerHTML = `<img src="images/${randomImage}" alt="Random Image">`;
   
