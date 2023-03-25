@@ -1,0 +1,55 @@
+
+
+body {
+    background-color: #ffc0cb;
+    font-family: 'MS Gothic', sans-serif;
+    font-size: 14pt;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #800000;
+    font-size: 36pt;
+    font-weight: bold;
+    margin: 30px 0 20px;
+    text-shadow: 1px 1px 1px #fff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .section {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 50px;
+    padding: 50px;
+    text-align: left;
+    width: 80%;
+  }
+  
+  .section h2 {
+    font-size: 24pt;
+    margin: 0 0 30px;
+    text-shadow: 1px 1px 1px #ccc;
+  }
+  
+  .section p {
+    font-size: 16pt;
+    margin: 0 0 20px;
+  }
+  
+  .section img {
+    border-radius: 50%;
+    height: 200px;
+    margin: 0 auto 30px;
+    width: 200px;
+  }
+  
