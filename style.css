@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 100px;
   background-color: #1a1a1a;
   color: white;
   font-family: 'Old English Text MT', serif;
@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 20px 0;
+  margin: 30px 0;
   padding: 0;
   color: #8c8c8c;
   font-family: 'Gothic', sans-serif;
