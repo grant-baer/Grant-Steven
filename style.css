@@ -120,6 +120,9 @@ button {
 	max-width: 100%;
 }
 
+.container {
+  margin-top: 100px;
+}
 
 .image-container {
   display: flex;
@@ -130,8 +133,8 @@ button {
 }
 
 .photography-image {
-  width: 900px;
-  height: 600px;
+  width: 450px;
+  height: 300px;
   position: absolute;
   top: calc(50% - 50px);
   left: calc(50% - 75px);
