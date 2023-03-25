@@ -129,43 +129,44 @@ button {
   height: 100%;
 }
 
-img {
-  position: absolute;
-  top: calc(50% - 100px);
-  left: calc(50% - 150px);
+.photography-image {
   width: 900px;
   height: 600px;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 75px);
 }
 
-img:nth-of-type(1) {
-  top: calc(50% - 300px);
-  left: calc(50% - 300px);
+.photography-image:nth-child(1) {
+  top: 10%;
+  left: 10%;
 }
 
-img:nth-of-type(2) {
-  top: calc(50% - 300px);
-  left: calc(50% + 100px);
+.photography-image:nth-child(2) {
+  top: 10%;
+  left: 40%;
 }
 
-img:nth-of-type(3) {
-  top: calc(50% + 100px);
-  left: calc(50% - 300px);
+.photography-image:nth-child(3) {
+  top: 10%;
+  right: 10%;
 }
 
-img:nth-of-type(4) {
-  top: calc(50% + 100px);
-  left: calc(50% + 100px);
+.photography-image:nth-child(4) {
+  bottom: 10%;
+  left: 10%;
 }
 
-img:nth-of-type(5) {
-  top: calc(50% - 300px);
-  left: calc(50% + 100px);
+.photography-image:nth-child(5) {
+  bottom: 10%;
+  right: 10%;
 }
 
-img:nth-of-type(6) {
-  top: calc(50% + 100px);
-  left: calc(50% - 300px);
+.photography-image:nth-child(6) {
+  bottom: 10%;
+  left: 40%;
 }
+
 
 /* Add more styles for more images */
 
