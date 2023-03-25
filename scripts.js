@@ -48,3 +48,17 @@ function getRandomImage() {
 const randomImage = getRandomImage();
 const imageContainer = document.getElementById('random-image');
 imageContainer.innerHTML = `<img src="images/${randomImage}" alt="Random Image">`;
+
+
+var gallery = document.querySelector('.gallery');
+var images = gallery.getElementsByTagName('img');
+var width = gallery.offsetWidth;
+var height = gallery.offsetHeight;
+
+for (var i = 0; i < images.length; i++) {
+  var img = images[i];
+  var x = Math.floor(Math.random() * (width - img.width));
+  var y = Math.floor(Math.random() * (height - img.height));
+  img.style.left = x + 'px';
+  img.style.top = y + 'px';
+}
