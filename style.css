@@ -1,67 +1,66 @@
-
-
-
 body {
-    background-color: #1a1a1a;
-    color: #fff;
-    font-family: 'Lucida Console', Courier, monospace;
-  }
-  
-  h1 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-top: 80px;
-    margin-bottom: 40px;
-    text-align: center;
-    text-shadow: 3px 3px 0px #000;
-  }
-  
-  h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 0px #000;
-  }
-  
-  p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    text-align: justify;
-  }
+  background-color: #1a1a1a;
+  color: white;
+  font-family: 'Old English Text MT', serif;
+  font-size: 18px;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  color: #8c8c8c;
+  font-family: 'Gothic', sans-serif;
+  text-transform: uppercase;
+}
 
-  .section {
-    border: 2px solid #000;
-    margin-bottom: 40px;
-    padding: 20px;
-  }
-  
-  .section img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-  }
-  
-  .button {
-    background-color: #333;
-    border: none;
-    border-radius: 3px;
-    color: #fff;
-    display: inline-block;
-    font-size: 16px;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: 1px 1px 0px #000;
-    transition: background-color 0.3s ease;
-  }
-  
-  .button:hover {
-    background-color: #666;
-  }
+a {
+  color: #864242;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-  .intro-container {
-    padding-top: 50px;
-  }
-  
+a:hover {
+  color: #a60000;
+}
+
+.intro-header {
+  font-size: 48px;
+  margin-top: 80px;
+  text-align: center;
+  letter-spacing: 6px;
+}
+
+.section {
+  border-top: 2px solid #851f1f;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.section p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.random-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.random-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
