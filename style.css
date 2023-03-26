@@ -119,7 +119,7 @@ button {
 .photography img {
 	max-width: 100%;
 }
-
+/*
 .container {
   margin-top: 100px;
 }
@@ -170,6 +170,28 @@ button {
   left: 40%;
 }
 
+*/
+
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+img {
+  width: 600px;
+  height: 900px;
+  display: block;
+  margin: 50px auto;
+}
+
+img:nth-child(even) {
+  margin-left: 50px;
+}
+
+img:nth-child(odd) {
+  margin-right: 50px;
+}
 
 /* Add more styles for more images */
 
