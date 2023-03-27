@@ -179,8 +179,8 @@ button {
 }
 
 img {
-  width: 450px;
-  height: 300px;
+  width: 600px;
+  height: 900px;
   display: block;
   margin: 50px auto;
 }
@@ -192,6 +192,7 @@ img:nth-child(even) {
 img:nth-child(odd) {
   margin-right: 50px;
 }
+
 
 /* Add more styles for more images */
 
