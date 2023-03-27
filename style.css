@@ -95,7 +95,7 @@ html, body {
 
 .image-container {
   position: relative;
-  height: 1920px; /* Set the container to take up the full height of the viewport */
+  height: 100vh; /* Set the container to take up the full height of the viewport */
   max-width: 1080px;
   margin: 0 auto;
 }
