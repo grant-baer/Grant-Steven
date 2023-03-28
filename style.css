@@ -96,7 +96,7 @@ html, body {
 .image-container {
   position: relative;
   height: calc(100vh - 100px); /* Subtract the height of the header bar from the viewport height */
-  max-width: 100%;
+  max-width: 50%;
   margin: 100px auto 0; /* Add a top margin equal to the height of the header bar */
 }
 
