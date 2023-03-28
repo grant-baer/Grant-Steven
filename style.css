@@ -90,18 +90,11 @@ button {
 
 html, body {
   height: 100%;
-  margin: 0;
 }
 
-/*.image-container {
-  position: relative;
-  height: 100vh; 
-  max-width: 1080px;
-  margin: 100px auto 0; /* Add a top margin equal to the height of the header bar *//*
-}*/
 .image-container {
   position: relative;
-  height: 100vh; /* Set the container to take up the full height of the viewport */ 
+  height: calc(100vh - 100px); /* Subtract the height of the header from the viewport height */ 
   max-width: 1080px;
   margin: 0 auto;
 }
@@ -112,15 +105,7 @@ html, body {
   left: 0;
   width: 100%;
   object-fit: contain; /* This will make the image fill the entire container */
-  /*object-fit: cover;*/ /* This will fit the entire image within the container without cropping */
 }
-img {
-  width: 1080px;
-  height: 1920px;
-  display: block;
-  margin: 50px auto;
-}
-
 
 /* Fabrics page */
 
