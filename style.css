@@ -93,12 +93,19 @@ html, body {
   margin: 0;
 }
 
+/*.image-container {
+  position: relative;
+  height: 100vh; 
+  max-width: 1080px;
+  margin: 100px auto 0; /* Add a top margin equal to the height of the header bar *//*
+}*/
 .image-container {
   position: relative;
-  height: 100vh; /* Subtract the height of the header bar from the viewport height */
+  height: 100vh; /* Set the container to take up the full height of the viewport */ 
   max-width: 1080px;
-  margin: 100px auto 0; /* Add a top margin equal to the height of the header bar */
+  margin: 0 auto;
 }
+
 
 .image-container img {
   position: absolute;
@@ -119,12 +126,6 @@ html, body {
   z-index: 0; /* This will make the second image appear below the first */
 }
 
-/*.image-container {
-  position: relative;
-  height: 100vh; /* Set the container to take up the full height of the viewport */ /*
-  max-width: 1080px;
-  margin: 0 auto;
-}*/
 
 
 
